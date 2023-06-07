@@ -1,0 +1,9 @@
+.meme-container{
+    /* background-color: black;
+    height: 100px; */
+    margin: 3rem; 
+}
+
+.meme-container img{
+    width: 100%;
+}
