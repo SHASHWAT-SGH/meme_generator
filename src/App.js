@@ -5,7 +5,7 @@ import Meme from "./components/Meme";
 import { useState } from "react";
 
 function App() {
-  const [url, seturl] = useState("https://i.imgflip.com/1g8my4.jpg");
+  const [url, seturl] = useState("https://i.imgflip.com/43a45p.png");
   const [upperText, setUpperText] = useState();
   const [lowerText, setLowerText] = useState();
   return (
