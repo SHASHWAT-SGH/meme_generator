@@ -1,8 +1,8 @@
 form{
     display: grid;
-    grid-template-columns: 40%  40%;
-    gap: 20%;
-    padding: 2rem 6rem;
+    grid-template-columns: 45%  45%;
+    gap: 10%;
+    padding: 2rem 4rem;
 }
 
 .form-input-text{
@@ -17,12 +17,13 @@ form{
 .form-input-btn{
     color: white;
     background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
-    grid-column: span 2;
+    /* grid-column: span 2; */
     height: 3rem;
     font-size: 1.3rem;
     border: black solid 2px;
     border-radius: 0.6rem;
 }
+
 .form-input-btn:hover{
     cursor: pointer;
     transform: scale(1.02);

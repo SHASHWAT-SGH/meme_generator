@@ -1,3 +1,5 @@
+
+
 .meme-container{
     /* background-color: black;
     height: 100px; */
@@ -28,13 +30,19 @@
 }
 
 .upper-text{
-    padding-top: 0.5rem;
+    
     position: absolute;
     top: 0px;
 }
 
 .lower-text{
-    padding-bottom: 1.5rem;
+    /* padding-bottom: 1.5rem; */
     position: absolute;
     bottom: 0px;
+}
+
+@media (min-width:800px) {
+    .meme-container img{
+        width: 40%;
+    }
 }

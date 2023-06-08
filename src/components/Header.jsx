@@ -18,7 +18,7 @@ export default function Header() {
           className="side-text"
           style={{ fontSize: "1.2rem", color: "white" }}
         >
-          React UseState Practice
+          React JS
         </div>
       </header>
     </>

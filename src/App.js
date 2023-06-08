@@ -8,6 +8,8 @@ function App() {
   const [url, seturl] = useState("https://i.imgflip.com/43a45p.png");
   const [upperText, setUpperText] = useState();
   const [lowerText, setLowerText] = useState();
+  const [fontColor, setFontColor] = useState("black");
+
   return (
     <>
       <Header />
@@ -15,8 +17,14 @@ function App() {
         seturl={seturl}
         setUpperText={setUpperText}
         setLowerText={setLowerText}
+        setFontColor={setFontColor}
       />
-      <Meme url={url} upperText={upperText} lowerText={lowerText} />
+      <Meme
+        url={url}
+        upperText={upperText}
+        lowerText={lowerText}
+        fontColor={fontColor}
+      />
     </>
   );
 }
